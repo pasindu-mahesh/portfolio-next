@@ -71,11 +71,10 @@ export const Hero = () => {
                         width={30}
                         className="rounded-2xl mx-auto"
                     />
-
+                    <p className="font-medium">80+ Happy clients</p>
                 </div>
-
-
             </div>
+            <p className="my-6 max-w-lx text-center font-medium">Fullsatck developer based in malabe, within over 2 years of experience</p>
         </motion.section>
     )
 }
