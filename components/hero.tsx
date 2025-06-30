@@ -2,6 +2,9 @@
 
 import { use, useEffect } from "react"
 import { animate, useMotionTemplate, useMotionValue, motion } from "framer-motion"
+import { profile } from "console"
+import Image from 'next/image';
+import profilepic from "../assets/profilepic.png"
 
 
 
@@ -40,6 +43,11 @@ export const Hero = () => {
                 >
                      Pasindu Mahesh
                 </h1>
+                <Image
+                    src={profilepic}
+                    alt="profile pic"
+                    width={250}
+                />
 
 
             </div>
