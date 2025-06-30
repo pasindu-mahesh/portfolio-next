@@ -6,6 +6,7 @@ import { profile } from "console"
 import Image from 'next/image';
 import profilepic from "../assets/profilepic.png"
 import obj1 from "../assets/obj1.png"
+import { FiArrowRight } from "react-icons/fi";
 
 
 
@@ -73,8 +74,28 @@ export const Hero = () => {
                     />
                     <p className="font-medium">80+ Happy clients</p>
                 </div>
+            
+                <p className="my-6 max-w-lx text-center font-medium">Fullsatck developer based in malabe, within over 2 years of experience</p>
+
+                <motion.button
+                    style={{
+                        border,
+                        boxShadow
+                    }}
+                    whileHover={{
+                        scale: 1.15,
+                    }}
+                    whileTap={{
+                        scale: 0.985,
+                    }}
+                    className="flex w-fit items-center gap-2 rounded-full px-4 py-2"
+                >
+                    Download CV
+                <FiArrowRight className=""/>
+                </motion.button>
             </div>
-            <p className="my-6 max-w-lx text-center font-medium">Fullsatck developer based in malabe, within over 2 years of experience</p>
+
+
         </motion.section>
     )
 }
