@@ -1,11 +1,14 @@
 import { Hero } from "@/components/hero";
-import { Navbar } from "@/components/navebar";
-import Image from "next/image";
+import { Navbar } from "@/components/navbar";
+
 
 export default function Home() {
   return (
     <>
+      <Navbar/>
       <Hero/>
+      
+      
     </>
   );
 }
