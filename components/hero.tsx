@@ -30,6 +30,19 @@ export const Hero = () => {
          }}
          className="relative grid min-h-screen place-content-center overflow-hidden px-24 text-gray-200"
         >
+            <div className="z-10 flex flex-col items-center">
+                <span className="mmb-1.5 inline-block rounded-full bg-gray-600/50 px-3 text-sm">
+                    Open for work
+                </span>
+                <h1 className="text-white/40 text-7xl font-black">Hi, I am</h1>
+               <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 font-black leading-tight
+                text-transparent bg-clip-text md:text-7xl"
+                >
+                     Pasindu Mahesh
+                </h1>
+
+
+            </div>
         </motion.section>
     )
 }
