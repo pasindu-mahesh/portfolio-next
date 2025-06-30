@@ -5,6 +5,7 @@ import { animate, useMotionTemplate, useMotionValue, motion } from "framer-motio
 import { profile } from "console"
 import Image from 'next/image';
 import profilepic from "../assets/profilepic.png"
+import obj1 from "../assets/obj1.png"
 
 
 
@@ -48,6 +49,30 @@ export const Hero = () => {
                     alt="profile pic"
                     width={250}
                 />
+
+                <div className="flex bg-white/10 shadow-xl p-3 rounded-3xl justify-center items-center space-x-2 mb-4">
+                    <Image
+                        src={obj1}
+                        alt="object"
+                        width={30}
+                        className="rounded-2xl mx-auto"
+                    />
+
+                    <Image
+                        src={obj1}
+                        alt="object"
+                        width={30}
+                        className="rounded-2xl mx-auto"
+                    />
+
+                    <Image
+                        src={obj1}
+                        alt="object"
+                        width={30}
+                        className="rounded-2xl mx-auto"
+                    />
+
+                </div>
 
 
             </div>
