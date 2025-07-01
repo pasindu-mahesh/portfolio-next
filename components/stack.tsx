@@ -14,5 +14,27 @@ const stackItems = [
 ]
 
 export const Stack = () => {
-    return (<></>)
+    return (
+        <section className="py-6">
+            <div className="max-w-[1200px] mx-auto px-4 text-center">
+                <h2 className="text-5xl text-gray-200 font-bold mb-4">My Stack</h2>
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+                    {stackItems.map ((item) => (
+                        <div 
+                            key={item.id}
+                            className="flex items-center justify-center flex-col rounded-xl p-4">
+
+                                <div>
+                                    {React.createElement(item.icon, {
+                                        className:"w-32 h-32",
+                                        style: {color: item.color}
+                                    })}
+                                </div>
+
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    )
 }
