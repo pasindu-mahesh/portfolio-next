@@ -33,7 +33,7 @@ export const Hero = () => {
          style={{
             backgroundImage
          }}
-         className="relative grid min-h-screen place-content-center overflow-hidden px-24 text-gray-200"
+         className="relative grid min-h-screen place-content-center overflow-hidden px-24 text-gray-200 glass"
         >
             <div className="z-10 flex flex-col items-center">
                 <span className="mmb-1.5 inline-block rounded-full bg-gray-600/50 px-3 text-sm">
