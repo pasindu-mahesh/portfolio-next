@@ -47,7 +47,7 @@ const isInView = useInView(ref, { once: false });
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 0.8}}
-            className="container mx-auto px-4 py-32 text-white"
+            className="mx-auto px-4 py-32 text-white glass"
         >
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}
