@@ -36,7 +36,7 @@ export const LogoAnimation = () => {
         <div className="py-9 bg-purple-200/10 opacity-80 glass">
             <div className="container mx-auto">
                 <div className="overflow-hidden
-                        [mask-image:linear-gradient(to_right_transparent,_black_25%_black_75%,_transparent)]">
+                        [mask-image:linear-gradient(to_right,_transparent,_black_25%,_black_75%,_transparent)]">
                 <motion.div
                     className="flex gap-14 flex-none pr-14"
                     animate={{
