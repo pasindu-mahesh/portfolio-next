@@ -2,6 +2,7 @@ import { Hero } from "@/components/hero";
 import { Navbar } from "@/components/navbar";
 import { Stack } from "@/components/stack";
 import { LogoAnimation } from "@/components/logoAnimation";
+import { Portfolio } from "@/components/portfolio";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero/>
       <Stack/>
       <LogoAnimation/>
+      <Portfolio/>
       
       
     </>
