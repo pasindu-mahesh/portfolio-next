@@ -6,6 +6,7 @@ import { Portfolio } from "@/components/portfolio";
 import { KeyMetrics } from "@/components/keyMetrics";
 import { Services } from "@/components/services";
 import { Contacts } from "@/components/contacts";
+import { Footer } from "@/components/footer";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <KeyMetrics/>
       <Services/> 
       <Contacts/>
+      <Footer/>
     </>
   );
 }
