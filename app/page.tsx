@@ -5,6 +5,7 @@ import { LogoAnimation } from "@/components/logoAnimation";
 import { Portfolio } from "@/components/portfolio";
 import { KeyMetrics } from "@/components/keyMetrics";
 import { Services } from "@/components/services";
+import { Contacts } from "@/components/contacts";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Portfolio/>
       <KeyMetrics/>
       <Services/> 
+      <Contacts/>
     </>
   );
 }
