@@ -19,7 +19,7 @@ export const Contacts = () => {
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="text-7xl font-bold text-gray-300"
                     >
-                        Get in <span className="text-gray-500">touch</span>
+                        Get in <span className="text-purple-500">touch</span>
                     </motion.h2>
 
                     <motion.div
@@ -32,7 +32,7 @@ export const Contacts = () => {
                             <p className="text-lg text-gray-300">Phone</p>
                             <a 
                                 href="tel:+9476-123-4567"
-                                className="text-2xl font-semibold hover:text-gray-400 transition duration-300 flex items-center gap-2"
+                                className="text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center after:content-['↗'] after:ml-2"
                             >
                                 +9476-123-4567
                                 <span className="text-gray-500"></span>
@@ -43,7 +43,7 @@ export const Contacts = () => {
                             <p className="text-lg text-gray-300">Email</p>
                             <a
                                 href="mailto:pasindu@gmail.com"
-                                className="lg:text-3xl font-semibold hover:text-gray-400 transition duration-300 flex items-center gap-2"
+                                className="lg:text-3xl font-semibold hover:text-purple-400 transition duration-300 flex items-center  after:content-['↗'] after:ml-2"
                             >
                                 pasindu@gmail.com
                                 <span className="text-gray-500"></span>
