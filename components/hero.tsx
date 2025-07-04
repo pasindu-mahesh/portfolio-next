@@ -34,7 +34,7 @@ export const Hero = () => {
          }}
          className="relative grid min-h-screen place-content-center overflow-hidden px-4 py-24 text-gray-200"
         >
-            <div className="z-10 flex flex-col items-center">
+            <div className="z-10 flex flex-col items-center text-center">
                 <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 text-sm">
                     Open for work
                 </span>
