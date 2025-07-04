@@ -1,8 +1,7 @@
 "use client"
 
-import { use, useEffect } from "react"
+import { useEffect } from "react"
 import { animate, useMotionTemplate, useMotionValue, motion } from "framer-motion"
-import { profile } from "console"
 import Image from 'next/image';
 import profilepic from "../assets/profilepic.png"
 import obj1 from "../assets/obj1.png"
