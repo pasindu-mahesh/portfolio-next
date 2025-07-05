@@ -1,12 +1,12 @@
-import { AiFillGithub, AiOutlineTwitter, AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
-import { FaTelegramPlane } from 'react-icons/fa';
+import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
+import { FaTelegramPlane, FaWhatsapp } from 'react-icons/fa';
 
 const socialLinks = [
-  { href: "https://github.com", Icon: AiFillGithub, label: "GitHub" },
+  { href: "https://github.com/pasindu-mahesh", Icon: AiFillGithub, label: "GitHub" },
+  { href: "www.linkedin.com/in/pasindu-mahesh-07556b2bb", Icon: AiFillLinkedin, label: "Linkedin" },
+  { href: "https://wa.me/9412345679", Icon: FaWhatsapp, label: "WhatsApp" },
+  { href: "https://telegram.org", Icon: FaTelegramPlane, label: "Telegram" },
   { href: "https://x.com", Icon: AiOutlineTwitter, label: "X (Twitter)" },
-  { href: "https://facebook.com", Icon: AiFillFacebook, label: "Facebook" },
-  { href: "https://instagram.com", Icon: AiFillInstagram, label: "Instagram" },
-  { href: "https://telegram.org", Icon: FaTelegramPlane, label: "Telegram" }
 ];
 
 export const Footer = () => {
