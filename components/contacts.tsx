@@ -34,7 +34,7 @@ export const Contacts = () => {
                                 href="tel:+9476-123-4567"
                                 className="text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center after:content-['↗'] after:ml-2"
                             >
-                                +9476-123-4567
+                                +94768302475
                                 <span className="text-gray-500"></span>
                             </a>
                         </div>
@@ -43,9 +43,9 @@ export const Contacts = () => {
                             <p className="text-lg text-gray-300">Email</p>
                             <a
                                 href="mailto:pasindu@gmail.com"
-                                className="lg:text-3xl font-semibold hover:text-purple-400 transition duration-300 flex items-center  after:content-['↗'] after:ml-2"
+                                className="lg:text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center  after:content-['↗'] after:ml-2"
                             >
-                                pasindu@gmail.com
+                                99pasindumahesh@gmail.com
                                 <span className="text-gray-500"></span>
                             </a>
 
@@ -54,6 +54,7 @@ export const Contacts = () => {
                         <div className="space-y-2">
                             <p className="text-lg text-gray-300">Address</p>
                             <address className="text-xl not-italic leading-relaxed">
+                                Samanala road,
                                 New Kandy Road,<br/>
                                 Malabe, <br/>
                                 Sri Lanka.
