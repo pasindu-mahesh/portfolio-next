@@ -71,12 +71,15 @@ export const Hero = () => {
                         width={30}
                         className="rounded-2xl mx-auto"
                     />
-                    <p className="font-medium">80+ Happy clients</p>
+                    <p className="font-medium">Fullsatck developer</p>
                 </div>
             
-                <p className="my-6 max-w-lx text-center font-medium">Fullsatck developer based in malabe, within over 2 years of experience</p>
+                <p className="my-6 max-w-lx text-center font-medium">Undergraduate at <span className="text-purple-400">Srilanka Institute of Information Technology</span>.<br/>
+                                                                     Specialized in creating modern web experiences with cutting-edge technologies.</p>
 
-                <motion.button
+                <motion.a
+                    href="/Download_Test.pdf"
+                    download
                     style={{
                         border,
                         boxShadow
@@ -90,13 +93,14 @@ export const Hero = () => {
                     className="flex w-fit items-center gap-2 rounded-full px-4 py-2"
                 >
                     Download CV
-                <FiArrowRight className=""/>
-                </motion.button>
+                    <FiArrowRight />
+                </motion.a>
+
             </div>
 
             <div className="bg-circle-container">
                 <div className="bg-circle-background"></div>
-                <div className="bg-circle"></div>
+                <div className="bg-circle "></div>
             </div>
 
         </motion.section>
