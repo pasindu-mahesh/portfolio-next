@@ -6,7 +6,7 @@ import { FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 
 const socialLinks = [
   { href: "https://github.com/pasindu-mahesh", Icon: AiFillGithub, label: "GitHub" },
-  { href: "www.linkedin.com/in/pasindu-mahesh-07556b2bb", Icon: AiFillLinkedin, label: "Linkedin" },
+  { href: "https://www.linkedin.com/in/pasindu-mahesh-07556b2bb/", Icon: AiFillLinkedin, label: "Linkedin" },
   { href: "https://telegram.org", Icon: FaTelegramPlane, label: "Telegram" },
   { href: "https://wa.me/9412345679", Icon: FaWhatsapp, label: "WhatsApp" },
   { href: "https://x.com", Icon: AiOutlineTwitter, label: "X (Twitter)" },
