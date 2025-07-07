@@ -55,7 +55,7 @@ const isInView = useInView(ref, { once: false });
                 transition={{ duration: 0.2, delay: 0.6 }}
                 className="text-6xl font-bold mb-12"
             >
-                 KEY METRICS
+                 KEY <span className="text-purple-300">METRICS</span>
             </motion.h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {metric.map((metric, index) => (
